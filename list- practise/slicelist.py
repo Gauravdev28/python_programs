@@ -16,7 +16,7 @@ print(list)
 print(list.append("Rohan")) #Here it print none and then we print list it pint the list 
 print(list)
 
-# III. shorting - in decending order 
+# III. shorting - In decending order 
 
 list.sort(reverse=True)
 print(list)
@@ -26,7 +26,7 @@ print(list)
 list.reverse()
 print(list)
 
-# V. Insert - In insert we insert the value in particular index
+# V. Insert - In this function we insert the value in particular index
 
 list.insert(3, "Manya")
 print(list)
