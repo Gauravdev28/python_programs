@@ -40,4 +40,3 @@ print(list)
 
 list.pop(2)
 print(list)
-
