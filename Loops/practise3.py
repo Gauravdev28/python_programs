@@ -1,9 +1,10 @@
-# We are printing table of n number 
+# Here we print table of user given number 
 
-number = int(input("Enter the number :"))
-count = 1
-while count <= 10 :
-    print(number*count) 
-    count +=1 
+user_input = int(input("Enter Table Number :"))
+x = 1
 
-print("End loop")
+while x<=10 :
+    print(user_input*x)
+    x +=1
+
+print("End Loop")
