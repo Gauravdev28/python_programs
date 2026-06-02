@@ -25,7 +25,7 @@ print(info.keys())
 # II. Values - In this word we print all the value without its key 
 print(info.values())
 
-# III.  Items - This keyword use for print all the dict. data in itmes form mean particular participation for each element.
+# III.  Items - This keyword use for print all the dict. data in itmes form. Means particular participation for each element.
 print(info.items())
 
 # IV. Get - This keyword use for returning no error if value not exist 
@@ -36,7 +36,7 @@ print(info["Name2"]) # It show error bcz value not exist
 info.update({"City" : "Dholpur" , "Friend" : "Rohan"})
 print(info)
 
-# Note - If we create a multiple dict. a nd if we want to update new dict. into old dict. by using same key name 
+# Note - If we create a multiple dict. and if we want to update new dict. into old dict. by using same key name 
 info2 = {
     "Name" : "Manya" , 
     "Roll Number" : 139

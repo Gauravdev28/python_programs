@@ -1,5 +1,5 @@
 # In tuples it is same as list but it is imutable mean it can't chnage after declaration
-# In tuples we rite in Bracket in place of Squeare Bracket 
+# In tuples we write in Bracket in place of Squeare Bracket 
 # Note in Tupples we can't print value after assign or in slicing  
 tup = (23 , 28 , 20 , 26 , 28 , 20 , 20 )
 print(type(tup))
