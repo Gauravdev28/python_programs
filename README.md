@@ -1,4 +1,8 @@
-  # 🐍 Python Programs & Practice Repository
+<p align="center">
+  <img src="assets/banner.png" alt="Python Practice Repository Banner">
+</p>
+  
+ # 🐍 Python Programs & Practice Repository
 
 Welcome to my Python learning repository! 🚀
 
