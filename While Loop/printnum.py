@@ -1,6 +1,6 @@
-# Printing 1 to 100 while using while loop
+# Printing number while using while loop
 
-num = int(input("Enter Number"))
-while num <=10 :
+num = 0
+while num <=100:
     print(num)
     num+=1
