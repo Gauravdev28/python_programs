@@ -1,13 +1,11 @@
 # Print Number from 1 to n 
 
-def print_num(x):
-    if (x==0):
-        return
-    
-    print_num(x-1)
-    print(x)
-
-print_num(5)
+def num_print(n):
+    if(n==0) :
+        return 
+    num_print(n-1)
+    print(n)
+num_print(5)
 
 
 # Print number from n to 1 
