@@ -12,4 +12,19 @@ def sum(n) :
     print(total)
 
 sum(23)
-        
+
+
+
+# Product of Number 
+
+def product (n):
+    total = 1
+
+    while n>0 :
+        digit = n%10 
+        total = total*digit
+        n = n//10
+
+    print(total)
+
+product(25)
