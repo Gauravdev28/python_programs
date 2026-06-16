@@ -13,4 +13,4 @@ def prime(n) :
     else :
         print("It is a Prime Number")
 
-prime(1)
+prime(5)
