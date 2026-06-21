@@ -1,6 +1,15 @@
 # Employee Management App 
+import json
 
-employees = {} # Creating a Dictonery to store All employee data 
+try :
+    with open("employees.json" , "r") as file :
+        employees = json.load(file)
+except :
+    employees = {} # Creating a Dictonery to store All employee data 
+
+def data_store() :
+        with open("employees.json" , "r") as file :
+            json.dump(employees, file)
 
 # Add Employee :
 def add_employee() :  
@@ -15,6 +24,7 @@ def add_employee() :
         "Department" : department , 
         "Salary" : salary,
     }
+
     print("Employee Added Successful")
 
 
