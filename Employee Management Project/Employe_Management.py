@@ -74,6 +74,9 @@ def delete_empleyee() :
     emp_id = int(input("Enter Employee ID : "))
     if emp_id in employees :
         del employees[emp_id]
+
+        data_store()
+        
         print("Employee Deleted Successful")
 
     else :
