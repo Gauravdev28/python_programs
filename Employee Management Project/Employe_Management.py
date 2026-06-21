@@ -9,7 +9,7 @@ except :
 
 def data_store() :
         with open("employees.json" , "r") as file :
-            json.dump(employees, file)
+            json.dump(employees, file , indent=4)
 
 # Add Employee :
 def add_employee() :  
@@ -24,9 +24,8 @@ def add_employee() :
         "Department" : department , 
         "Salary" : salary,
     }
-
+    data_store()
     print("Employee Added Successful")
-
 
 # Update the Employee Details 
 def update_employee():
