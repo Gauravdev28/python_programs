@@ -8,7 +8,7 @@ except :
     employees = {} # Creating a Dictonery to store All employee data 
 
 def data_store() :
-        with open("employees.json" , "r") as file :
+        with open("employees.json" , "w") as file :
             json.dump(employees, file , indent=4)
 
 # Add Employee :
